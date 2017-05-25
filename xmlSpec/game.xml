@@ -1,0 +1,203 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Michael Stamatakis'  2D  Odyssey</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<frameMax>100</frameMax>
+<maxFrames>450</maxFrames>
+
+<username>stamata</username>
+
+<numberOfmoths>75</numberOfmoths>
+
+<delay>1000</delay>
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>5000</width>
+  <height>576</height>
+</world>
+
+<layer_5>
+  <file>images/layer_5.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</layer_5>
+
+<layer_4>
+  <file>images/layer_4.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</layer_4>
+
+<layer_3>
+  <file>images/layer_3.png</file>
+  <factor>3</factor>
+  <transparency>false</transparency>
+</layer_3>
+
+<layer_2>
+  <file>images/layer_2.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</layer_2>
+
+<layer_1>
+  <file>images/layer_1.png</file>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</layer_1>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>15</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<white>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</white>
+
+<red>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</red>
+
+<green>
+  <red>0</red>
+  <green>128</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</green>
+
+<blue>
+  <red>0</red>
+  <green>0</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</blue>
+
+<black>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</black>
+
+<moth>
+  <file>images/moth.png</file>
+  <startLoc x="854" y="400" />
+  <frames>7</frames>
+  <frameWidth>71.4285</frameWidth>
+  <frameHeight>53</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+    <size>32</size>
+    <distance>50</distance>
+  </chunk>
+  <transparency>true</transparency>
+</moth>
+
+<run>
+  <file>images/run.png</file>
+  <bullet>throwing_star</bullet>
+  <startLoc x="120" y="383.5"/>
+  <frames>10</frames>
+  <frameWidth>140</frameWidth>
+  <frameHeight>192.5</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>375</speedX>
+  <speedY>0</speedY>
+  <chunk>
+    <size>150</size>
+    <distance>50</distance>
+  </chunk>
+  <transparency>true</transparency>
+</run>
+
+<throwing_star>
+  <file>images/throwing_star.png</file>
+  <frames>1</frames>
+  <startLoc x="100" y="100"/>
+  <frameWidth>43</frameWidth>
+  <frameHeight>47</frameHeight>
+  <frameInterval>500</frameInterval>
+  <interval>500</interval>
+  <distance>400</distance>
+  <speedX>500</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <strategy>perpixel</strategy>
+</throwing_star>
+
+<runLeft>
+  <file>images/runLeft.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>10</frames>
+  <frameWidth>140</frameWidth>
+  <frameHeight>192.5</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</runLeft>
+
+<jump>
+  <file>images/jump.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>8</frames>
+  <frameWidth>125</frameWidth>
+  <frameHeight>125</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</jump>
+
+<jumpLeft>
+  <file>images/jumpLeft.png</file>
+  <startLoc x="120" y="140"/>
+  <frames>8</frames>
+  <frameWidth>125</frameWidth>
+  <frameHeight>125</frameHeight>
+  <frameInterval>100</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</jumpLeft>
+
+<star>
+  <file>images/yellowstar32.png</file>
+  <startLoc x="10" y="10"/>
+  <speedX>-175</speedX>
+  <speedY>-175</speedY>
+  <transparency>true</transparency>
+</star>
+
+<greenorb>
+  <file>images/greenball.bmp</file>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</greenorb>
+
+</GameData>

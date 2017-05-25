@@ -1,0 +1,33 @@
+Name: Michael Stamatakis
+
+Clemson Email Address: stamata@clemson.edu
+
+Project no: Final
+
+Project due date: 4/4/17
+
+Project description: The Final Game
+
+Tasks:
+
+All of the tasks should be easy to see from the video or in the exact files and functions that needed to be changed except maybe for:
+
+The player functionality can be understood from the HUD. I have implemented jumping that lasts for 2 seconds before returning to running.
+
+The HUD now has it's own class. It's drawn at the beginning of the game for 4 seconds and then when the player presses F1 to toggle it on and off.
+
+The painter's algorithm can be seen in the Engine class. I made a Funtion Objectm, FuncLess, to compare the size of the sprites and be able to sort them in a vector. 
+
+In the next project, I'll add more functionality to the player to make it more responsive. I plan on adding ledges that the player can jump on top of in order to collect different objects that will be used for projectiles and by collecting stars the player can replenish their energy level.
+
+References:
+
+running and jumping guy (I modified his coloring):
+http://patsobo.com/game-tutorial-sprite-class-part-1/
+
+moth:
+https://www.pinterest.com/eueffa/animationsprite/
+
+background:
+https://www.pmcaseyart.com/
+
